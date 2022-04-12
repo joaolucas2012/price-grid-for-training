@@ -6,15 +6,37 @@
 }
 
 .card{
-    background-color: #eee;
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
     color: #2bb3b1;
-    height: 55vh;
-    width: 35vw;
+    height: 65vh;
+    width: 40vw;
     margin: 0 auto;
+}
+
+.green{
+    color: #bfdf32;
+}
+
+.grey{
+    color: #ccc;
+    font-size: 13px;
+}
+
+.left-text{
+    text-align: left;
+    margin-left: 6%;
 }
 
 .container:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .monthly-subscription,
+  .why-us{
+      background-color: blue;
+      text-align: center;
+      width: 50%;
+      display: inline-block;
   }
