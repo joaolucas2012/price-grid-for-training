@@ -1,13 +1,17 @@
 .container{
-    background-color: red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #eee;
     border-radius: 10px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    justify-content: center;
-    position: center;
-    color: white;
-    height: 30em;
-    width: 30em;
+    color: #2bb3b1;
+    height: 55vh;
+    width: 35vw;
     margin: 0 auto;
 }
 
