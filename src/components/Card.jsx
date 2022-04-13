@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Card.css";
 
+import GreyText from "./GreyText";
 import Header from "./Header.jsx";
 
 const Card = () => {
@@ -14,14 +15,14 @@ const Card = () => {
             <p className="green">30-day, hassle free money back guarantee</p>
           </div>
           <div className="left-text">
-            <p className="grey">
+            <GreyText>
               Gain access to our full library of tutorials along with expert
               code reviews.
-            </p>
-            <p className="grey">
+            </GreyText>
+            <GreyText>
               Perfect for any developers who are serious about honing their
               skills.
-            </p>
+            </GreyText>
           </div>
         </div>
         <div id="card-bottom">
