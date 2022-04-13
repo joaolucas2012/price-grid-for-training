@@ -2,8 +2,9 @@ import React from "react";
 
 import "./Card.css";
 
+import Title from "./Title";
 import GreyText from "./GreyText";
-import Header from "./Header.jsx";
+import Header from "./Header";
 
 const Card = () => {
   return (
@@ -25,13 +26,9 @@ const Card = () => {
             </GreyText>
           </div>
         </div>
-        <div id="card-bottom">
-          <div className="monthly-subscription">
-            <p>Monthly Subscription</p>
-          </div>
-          <div className="why-us">
-            <p>Why Us?</p>
-          </div>
+        <div className="card-bottom">
+          <Title>Monthly Subscription</Title>
+          <Title>Why Us?</Title>
         </div>
       </div>
     </div>
