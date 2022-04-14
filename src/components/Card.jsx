@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Card.css";
 
+import HalfContainer from "./HalfContainer";
 import Title from "./Title";
 import GreyText from "./GreyText";
 import Header from "./Header";
@@ -27,8 +28,12 @@ const Card = () => {
           </div>
         </div>
         <div className="card-bottom">
-          <Title>Monthly Subscription</Title>
-          <Title>Why Us?</Title>
+          <HalfContainer>
+            <Title>Monthly Subscription</Title>
+          </HalfContainer>
+          <HalfContainer>
+            <Title>Why Us?</Title>
+          </HalfContainer>
         </div>
       </div>
     </div>
