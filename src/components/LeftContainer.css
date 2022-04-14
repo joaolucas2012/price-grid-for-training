@@ -1,0 +1,37 @@
+.left-container {
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 6.2%;
+  border-bottom-left-radius: 5px;
+}
+
+.lightseagreen__background {
+  background-color: #3bb;
+}
+
+.left-space {
+  text-align: left;
+  margin-left: 12%;
+}
+
+.lightcyan {
+  color: #dff;
+}
+
+.mediumturquoise{
+  color: #5cc;
+}
+
+.inline{
+  width: 50%;
+  display: inline;
+}
+
+.font-13{
+  font-size: 13px;
+}
+
+.topper{
+  background-color: red;
+  margin-bottom: 3px;
+}

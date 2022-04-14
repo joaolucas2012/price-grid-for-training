@@ -1,0 +1,25 @@
+.right-container {
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 8.5%;
+  border-bottom-right-radius: 5px;
+  margin-top: 1%;
+}
+
+.mediumturquoise__background {
+  background-color: #5cc;
+}
+
+.left-space {
+  margin-left: 6%;
+}
+
+.lightcyan {
+  color: #dff;
+}
+
+#info p {
+  font-size: 12px;
+  margin: 0;
+  color: lightcyan;
+}
