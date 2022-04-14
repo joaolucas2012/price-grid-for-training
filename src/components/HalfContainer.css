@@ -1,5 +1,4 @@
 .half-container {
-  width: 10%;
-  display: inline;
-  text-align: left;
+  width: 50%;
+  display: inline-block;
 }

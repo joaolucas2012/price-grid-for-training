@@ -15,16 +15,41 @@
   margin: 0 auto;
 }
 
-.lightseagreen {
+.font-13{
+  font-size: 13px;
+}
+
+.inline{
+  width: 50%;
+  display: inline;
+}
+
+.card-bottom h1{
+  color: white;
+}
+
+.grey{
+  color: #ccc;
+}
+
+.lightseagreen__background {
   background-color: #3bb;
 }
 
-.mediumturquoise{
+.lightseagreen{
+  color: #3bb;
+}
+
+.mediumturquoise__background{
   background-color: #5cc;
 }
 
+.mediumturquoise{
+  color: #5cc;
+}
+
 .lightcyan{
-  background-color: #dff;
+  color: #dff;
 }
 
 .green {
@@ -36,6 +61,16 @@
   margin-left: 6%;
 }
 
+.left-space{
+  margin-left: 12%;
+}
+
 .container:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#info p{
+  font-size: 12px;
+  margin: 0;
+  color: lightcyan;
 }
