@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Card.css";
 
+import Text from "./Text"
 import HalfContainer from "./HalfContainer";
 import Title from "./Title";
 import GreyText from "./GreyText";
@@ -14,7 +15,9 @@ const Card = () => {
         <div id="card-top">
           <Header />
           <div className="left-text">
-            <p className="green">30-day, hassle free money back guarantee</p>
+            <Text className="green">
+              30-day, hassle-free money back guarantee
+            </Text>
           </div>
           <div className="left-text">
             <GreyText>
@@ -27,11 +30,11 @@ const Card = () => {
             </GreyText>
           </div>
         </div>
-        <div className="card-bottom">
-          <HalfContainer>
-            <Title>Monthly Subscription</Title>
+        <div>
+          <HalfContainer className="lightseagreen">
+            <Title className="left-text">Monthly Subscription</Title>
           </HalfContainer>
-          <HalfContainer>
+          <HalfContainer className="mediumturquoise">
             <Title>Why Us?</Title>
           </HalfContainer>
         </div>

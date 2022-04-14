@@ -15,8 +15,16 @@
   margin: 0 auto;
 }
 
-.card-bottom {
+.lightseagreen {
   background-color: #3bb;
+}
+
+.mediumturquoise{
+  background-color: #5cc;
+}
+
+.lightcyan{
+  background-color: #dff;
 }
 
 .green {
