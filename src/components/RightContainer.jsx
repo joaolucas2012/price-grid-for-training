@@ -6,7 +6,7 @@ const RightContainer = () => {
     return ( 
         <div className="right-container mediumturquoise__background">
             <div className="left-space">
-              <p className="lightcyan">Why Us?</p>
+              <p id="why" className="lightcyan">Why Us?</p>
               <div id="info">
                 <p>Tutorials by industry experts</p>
                 <p>Peer and expert code review</p>
