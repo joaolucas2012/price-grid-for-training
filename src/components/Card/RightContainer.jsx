@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./RightContainer.css";
+import "../UI/RightContainer.css";
 
 const RightContainer = () => {
     return ( 

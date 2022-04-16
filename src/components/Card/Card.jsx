@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Card.css";
+import "../UI/Card.css";
 
 import RightContainer from "./RightContainer";
 import LeftContainer from "./LeftContainer";

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import "./LeftContainer.css";
+import "../UI/LeftContainer.css";
 
 import Button from "./Button";
 
