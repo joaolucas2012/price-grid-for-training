@@ -4,6 +4,7 @@ import "./Card.css";
 
 import RightContainer from "./RightContainer";
 import LeftContainer from "./LeftContainer";
+import PGrey from "./PGrey";
 import Header from "./Header";
 
 const Card = () => {
@@ -16,14 +17,14 @@ const Card = () => {
             <p className="green">30-day, hassle-free money back guarantee</p>
           </div>
           <div className="left-text">
-            <p className="font-13 grey">
+            <PGrey>
               Gain access to our full library of tutorials along with expert
               code reviews.
-            </p>
-            <p className="font-13 grey">
+            </PGrey>
+            <PGrey>
               Perfect for any developers who are serious about honing their
               skills.
-            </p>
+            </PGrey>
           </div>
         </div>
         <div className="card-bottom">
