@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deploy in Vercel
+
+Click [here](https://price-grid-for-training-eo9yioiq6-joaolucas2012.vercel.app/) to access.
+
 ## Available Scripts
 
 In the project directory, you can run:
