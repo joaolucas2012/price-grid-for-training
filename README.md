@@ -1,3 +1,6 @@
+# price-grid-for-training
+
+This repository contains the code in React Js of a price grid that I've done to train front-end development.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
