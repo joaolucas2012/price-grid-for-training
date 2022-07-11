@@ -1,11 +1,11 @@
 import React from 'react';
 
-import "../UI/Button.css";
+import {GreenButton} from './styles';
 
 const Button = (props) => {
     return ( 
-        <button className="btn">{props.children}</button>
-     );
+        <GreenButton>{props.children}</GreenButton>
+    );
 }
  
 export default Button;

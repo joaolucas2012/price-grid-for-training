@@ -1,24 +1,19 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AppDiv } from "./style.jsx";
 
-import Card from "./components/Card/Card";
+import Card from "./components/Card";
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <AppDiv>
         <Routes>
           <Route path="/" exact element={<Card />} />
         </Routes>
-      </div>
+      </AppDiv>
     </Router>
   );
 }
 
 export default App;
-
